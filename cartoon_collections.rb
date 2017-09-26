@@ -18,7 +18,7 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types = ["banana", "cheddar", "gouda", "camembert"]
   array.detect.with_index do |maybe_cheese, index|
     maybe_cheese == cheese_types[index]
     binding.pry
