@@ -23,5 +23,3 @@ def find_the_cheese(array)
     maybe_cheese == cheese_types[index]
   end
 end
-
-1. check if array.include? cheese_types[index]
