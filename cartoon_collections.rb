@@ -22,4 +22,5 @@ def find_the_cheese(array)
   array.detect.with_index do |maybe_cheese, index|
     maybe_cheese == cheese_types[index]
   end
+  binding.pry
 end
