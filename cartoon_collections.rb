@@ -25,4 +25,3 @@ def find_the_cheese(array)
     maybe_cheese == cheese_types[index]
   end
 end
-binding.pry
