@@ -22,6 +22,6 @@ array = ["banana", "cheddar", "sock"]
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.detect.with_index do |maybe_cheese, index|
-    maybe_cheese == cheese_types[index] ? true : false
+    maybe_cheese == cheese_types[index]
   end
 end
